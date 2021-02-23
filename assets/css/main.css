@@ -1,0 +1,356 @@
+body {
+    background: #f3f6f8;
+}
+
+:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+.table-hover:not(#template.table-hover) tbody tr:hover {
+    cursor: pointer;
+    color: white !important;
+    background-color: #d0aa3c !important;
+}
+.table-active{
+    color: white !important;
+    background-color: #d0aa3c !important;    
+}
+.paginate_button {
+    padding: 4px 12px;
+    background: white;
+    border: 1px solid #d0aa3c;
+    font-size: 12px;
+}
+.text-gold{
+    color: #d0aa3c !important;
+}
+.btn-warning{
+    background-color: #d0aa3c !important;
+    color: white !important; 
+    border-color: #d0aa3c !important;
+}
+.btn-warning:hover{
+    background: #b39438 !important;
+}
+.btn-outline-warning{
+    border-color: #d0aa3c !important;
+    color: #d0aa3c !important;
+}
+.btn-outline-warning:hover{
+    background: #d0aa3c !important;
+    color: white !important;
+}
+.bg-warning{
+    background: #d0aa3c !important;
+}
+#example_info {
+    display: none;
+}
+
+#example_filter {
+    display: none;
+}
+
+#example_length .length_pages {
+    height: 35px;
+    border-radius: 5px;
+    width: 50px;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.paginate_button.previous {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.paginate_button.next {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.paginate_button.current {
+    background: #d0aa3c;
+    color: white;
+}
+
+.dataTables_paginate:not(.current){
+    color: #d0aa3c !important;
+}
+
+.dataTables_filter [type=search]{
+    border: 1px solid #d0aa3c !important;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 10px;
+
+}
+
+.dataTables_filter [type=search]::before{
+    content: "123123";
+}
+
+.main-table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.main-table td, .main-table th {
+    text-align: center !important;
+    vertical-align: middle !important;
+    font-size: 12px !important;
+    padding: 5px !important;
+}
+
+.input-group-append p {
+    color: gray;
+    font-size: 10px !important;
+}
+
+.sup {
+    color: gray;
+    margin-bottom: 0;
+    font-size: 10px !important;
+}
+
+.input-group select{
+    font-size: 13px;
+    color: gray;
+}
+.input-group-prepend:not(.level-search) {
+    width: 44px !important;
+}
+
+.radius_right {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.radius_left {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.btn-group{
+    width: 100%;
+    overflow-x: auto;
+}
+
+#email_addr .dropdown-menu{
+    font-size: 14px !important; 
+}
+@media only screen and (max-width: 775px) {
+    .main-table {
+        margin-top: 0 !important;
+    }
+    .function {
+        margin: 0 auto;
+    }
+    .function button {
+        display: block;
+        width: 50%;
+        margin-top: 10px;
+    }
+}
+
+.line-height-none{
+    line-height: 0 !important;
+}
+
+#code_table td, #code_table th{
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+}
+.code{
+    width: 100%;
+    overflow-x: auto;
+}
+#code_table td a{
+    text-decoration: underline;
+}
+#code_table td a:hover{
+    text-decoration: underline !important;
+}
+/* #code_table tbody tr:hover{
+    cursor: pointer;
+} */
+.feature span, .feature input[type=text], .feature label{
+    font-size: 13px;
+}
+@media (max-width : 1160px){
+    #survey_codes .feature{
+        margin-top: 0 !important;
+    }
+}
+@media (max-width : 510px){
+    #survey_codes .func-btn button{
+        width: 100%;
+    }
+}
+
+.nodes{
+    margin-top: -52px;
+}
+.nodes .node{
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    border: 10px solid #eee;
+}
+.nodes small{
+    font-size: 1.5vh !important;
+}
+
+/* *************************************** CodePages ************************************************ */
+#codePages_table td, #codePages_table th{
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+}
+.codePages select{
+    color: gray;
+    font-size: 12px !important;
+}
+#expenditure th, #expenditure td{
+    color: gray;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle !important;
+    line-height: 0.6;
+}
+.expenditure{
+    width: 100%;
+    overflow-x: auto;
+}
+.expenditure input[type=text]{
+    min-width: 100px;
+}
+.value input[type=text]{
+    text-align: center;
+}
+/* *************************************** getUrl ************************************************** */
+#getUrl_table td, #getUrl_table th{
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+}
+.getUrl_table{
+    width: 100%;
+    overflow-x: auto;
+}
+.font-13{
+    font-size: 13px;
+}
+/* **************************************************** Survey Login *********************************************/
+.cross-mark{
+    position: absolute;
+    top: 5px;
+    right: -30px;
+}
+.cross-mark:hover{
+    cursor: pointer !important;
+}
+#surveyLogin_table tbody td, #surveyCode_table tbody td{
+    font-size: 10px !important;
+}
+
+/* ***************************************************** Survey Page ******************************************** */
+#recommendation thead th, #recommendation tbody td{
+    font-size: 10px !important;
+    padding: 8px;
+}
+.dataTables_wrapper{
+    width: 100%;
+}
+#feedback tbody td, #feedback thead th{
+    font-size: 10px !important;
+    padding: 8px;
+}
+#template td{
+    font-size: 13px !important;
+    vertical-align: middle !important;
+    padding: 5px;
+    max-width: 250px;
+}
+#template tr{
+    border-top: 1px solid #ced4da !important;
+}
+.input-group .btn{
+    font-size: 13px !important;
+}
+.surveyPages .expenditure{
+    width: 100%;
+    overflow-x: auto;
+}
+.value{
+    text-align: right;
+}
+#sp_add_row:hover{
+    cursor: pointer;
+}
+#file{
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+}
+#icon_upload{
+    position: absolute;
+    z-index: -1;
+}
+.select2:not(.search-title .select2-container){
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important;
+    font-size: 13px;
+    border: 1px solid #ced4da;
+}
+
+.node:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(0, 162, 255);
+}
+
+.page_title{    
+    font-weight: bold !important;
+}
+.select2-selection__rendered{
+    font-size: 13px !important;
+}
+.select2-selection{
+    height: 34px !important;
+    border: none !important;
+}
+#company_search .select2-selection{
+    border-radius: unset;
+}
+#company_search~.select2{
+    width: 75% !important;
+}
+.selection{
+    width: 100%;
+    position: relative;
+}
+.select2-results__options{
+    font-size:13px !important;
+}
+#level_name_list{
+    max-height: 300px;
+}
+#level_name_list div:hover{
+    cursor: pointer;
+    background: #eee;
+}
+.special-border{    
+    min-width: 200px;
+    font-weight: bold;
+}
+#sp_header_user{
+    font-size: 19px !important;
+}
+#template.table-hover tbody tr{
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+    body {
+        background: #f8fafb;
+    }
+
+    .login>div {
+        background: #f8fafb;
+    }
+
+    .login .form-control {
+        height: 50px !important;
+    }
+
+    .content {
+        background: white;
+        margin-top: 80px;
+    }
+    .main{
+        box-shadow: 0 0 60px #15151589;
+    }
